@@ -8,10 +8,10 @@
     <title>Checkpoint</title>
   </head>
   <body>
-    <header id="#header">
-      <img class="logo" src="/img/logo.svg" alt="logo bild," />
+    <header id="header">
+      <img class="logo" src="/img/logo.svg" alt="logo image:'LichtBlick'" />
       <nav class="nav">
-        <ul>
+        <ul class="nav-list">
           <li>Für euch</li>
           <li>Für Unternehmen</li>
           <li>Fürs Klima</li>
@@ -19,8 +19,8 @@
       </nav>
     </header>
     <main id="main">
+      <img class="top-image" src="/img/header-img.jpeg" alt="Mountain image" />
       <section class="top-section">
-        <img src="/img/header-img.jpeg" alt="" />
         <h1>
           Das neue Normal: klimaneutrale Energie für Zuhause und unterwegs
         </h1>
@@ -30,52 +30,64 @@
           Zukunft für alle.
         </p>
       </section>
-      <
       <section class="middle-section">
         <h2>Wollt ihr mit Strom heizen?</h2>
         <p>
           Egal ob für Wärmepumpe oder Nachtspeicherheizung: LichtBlick
           WärmeStrom bietet euch die passenden Tarife für eure Elektroheizung.
         </p>
-        <button>Mehr zu WärmeStrom</button>
+        <button class="middle-button">Mehr zu WärmeStrom</button>
       </section>
 
-      <article id="card-section">
-        <h3>Gute Ideen für ein besseres Klima</h3>
-        <p>
-          Ihr wollt wissen, was ihr jetzt und in Zukunft tun könnt? Wir haben
-          die neuesten Trends und praktische Lösungen für euren Alltag.
-        </p>
-        <article class="card-left">
-          <img src="/img/left-img.webp" alt="" />
-          <h4>E-Mobilität ist kein Traum. Sondern Zukunft.</h4>
+      <article id="cards">
+        <header class="card-section">
+          <h3>Gute Ideen für ein besseres Klima</h3>
           <p>
-            Ob Wallbox, Ladekarte oder Stromtarif: Mit innovativen Lösungen rund
-            ums E-Auto macht LichtBlick euch fit für die Mobilität von morgen.
+            Ihr wollt wissen, was ihr jetzt und in Zukunft tun könnt? Wir haben
+            die neuesten Trends und praktische Lösungen für euren Alltag.
           </p>
-          <a href="">Zur E-Mobilität</a>
-        </article>
-        <article class="card-right">
-          <img src="/img/right-img.webp" alt="" />
-          <h5>Klimaneutralität ist machbar. Und hörbar</h5>
-          <p>
-            Wie gestalten wir gemeinsam eine klimaneutrale Zukunft? Und was
-            können wir alle jetzt schon im Alltag tun? In unserem Podcast
-            erfahrt ihr's!
-          </p>
-          <a href="">Zum Podcast</a>
-        </article>
+        </header>
+        <div class="cards-grid">
+          <article class="card-left">
+            <img
+              class="img-left"
+              src="/img/left-img.webp"
+              alt="Man charges his electric car"
+            />
+            <h4>E-Mobilität ist kein Traum. Sondern Zukunft.</h4>
+            <p>
+              Ob Wallbox, Ladekarte oder Stromtarif: Mit innovativen Lösungen
+              rund ums E-Auto macht LichtBlick euch fit für die Mobilität von
+              morgen.
+            </p>
+            <a class="podcast-link" href="">Zur E-Mobilität</a>
+          </article>
+          <article class="card-right">
+            <img
+              class="img-right"
+              src="/img/right-img.webp"
+              alt="Woman who enjoys getting rid of co2"
+            />
+            <h4>Klimaneutralität ist machbar. Und hörbar</h4>
+            <p>
+              Wie gestalten wir gemeinsam eine klimaneutrale Zukunft? Und was
+              können wir alle jetzt schon im Alltag tun? In unserem Podcast
+              erfahrt ihr's!
+            </p>
+            <a class="podcast-link" href="">Zum Podcast</a>
+          </article>
+        </div>
       </article>
-      <section class="bottom-secton">
-        <h6>
+      <section class="bottom-section">
+        <h5>
           LichtBlick erarbeitet 5 Klimareformen für Klimaneutralität bis 2035
-        </h6>
+        </h5>
         <p>
           Die Wahl 2021 wird zur Klimawahl. Ihr Ausgang entscheidet, ob wir die
           Klimaziele das Pariser Abkommens erreichen. Klar ist: Es braucht große
           politische Veränderungen.
         </p>
-        <button>Zu den Reformen</button>
+        <button class="bottom-button">Zu den Reformen</button>
       </section>
     </main>
     <footer id="footer">
@@ -86,7 +98,7 @@
       <a href="">Rechtliche Hinweise</a>
       <a href="">Veröffentlichungen</a>
       <a href="">Marktpartner</a>
-      <p>&copy;2021 Ovidiu Goanta</p>
+      <p>&copy;2021 LichtBlick</p>
     </footer>
   </body>
 </html>
