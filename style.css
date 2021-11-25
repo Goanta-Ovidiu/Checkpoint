@@ -72,9 +72,9 @@ h6 {
 .middle-section {
   background-color: rgb(250, 193, 224);
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 4rem 3rem;
   margin: 2rem 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -95,7 +95,6 @@ h6 {
 .card-section {
   text-indent: 1rem;
   text-align: center;
-  margin: 2rem;
   padding: 1rem 0;
   line-height: 1.3;
   font-size: 1.3rem;
@@ -147,6 +146,7 @@ h6 {
   background-color: lightblue;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5rem;
